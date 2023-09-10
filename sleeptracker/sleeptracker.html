@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>SLEEP TRACKER</h1>
+    </header>
+
+    <section id="goal-setting">
+        <br>
+        <h2>Set Your Sleep Goal</h2>
+        <label for="sleepGoalHours">Hours:</label>
+        <input type="number" id="sleepGoalHours" min="0" max="24">
+        <label for="sleepGoalMinutes">Minutes:</label>
+        <input type="number" id="sleepGoalMinutes" min="0" max="59">
+        <button id="setGoal">Set Goal</button>
+    </section>
+
+    <section id="sleep-input">
+        <br>
+        <h2>Log Your Sleep</h2>
+        <br>
+        <label for="hours">Hours slept:</label>
+        <input type="number" id="hours" min="0" max="24">
+        <label for="minutes">Minutes slept:</label>
+        <input type="number" id="minutes" min="0" max="59">
+        <button id="logSleep">Log Sleep</button>
+    </section>
+
+    <section id="sleep-pattern">
+        <br>
+        <br>
+        <h2>Sleep Patterns</h2>
+        <br>
+        <br>
+        <p id="average-sleep">Average sleep this week: --:--</p>
+        <br>
+        <br>
+        <p id="reminder">No reminders</p>
+    </section>
+
+    <footer>
+        <p>&copy; The Healthy Place</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
