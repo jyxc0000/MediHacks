@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <div>
+        <h1> Sign up </h1>
+        <form class = "signup" onsubmit = "myfunc(event)">
+
+            <label>First Name</label>
+            <input type = "text" id = "first_name" placeholder = "">
+            <label>Last Name</label>
+            <input type = "text" id = "last_name" placeholder = "">
+            <label>Email</label>
+            <input type = "email" id = "email" placeholder = "">
+            <label>Password</label>
+            <input type = "password" id = "password" placeholder = "">
+            <label>Confirm Password</label>
+            <input type = "password" id = "password1" placeholder = "">
+            <input type = "button" value  = "Submit">
+
+        </form>
+    <script type = "text/javascript">
+        function myfunc(event){
+            event.preventDefault();
+        }
+    </script>
+    </div>
+    <br>
+    <br>
+    <center><p>Already have an account? <a href = "#"> Sign in</a></p></center>
+    
+</body>
+</html>
