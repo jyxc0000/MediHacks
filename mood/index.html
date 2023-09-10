@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Forum with Emoji Distribution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Mood Tracker</h1>
+
+    <!-- Forum Section -->
+    <section id="forum">
+        <h2>Forum Posts</h2>
+        <ul id="post-list">
+            <!-- List of forum posts -->
+        </ul>
+
+        <!-- Post Form -->
+        <h3>Upload your feelings from today!</h3>
+        <form id="post-form">
+            <label for="post-emotion">Select an Emotion:</label>
+            <select id="post-emotion" required>
+                <option value="😃">😃 Happy</option>
+                <option value="😢">😢 Sad</option>
+                <option value="😡">😡 Angry</option>
+                <option value="😄">😄 Excited</option>
+                <!-- Add more emotion options as needed -->
+            </select><br>
+            <label for="post-content">Content:</label>
+            <textarea id="post-content" required></textarea><br>
+            <label for="post-image">Image:</label>
+            <input type="file" accept="image/*" id="post-image">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <div class="modal"></div>
+    <script src="script.js"></script>
+</body>
+</html>
