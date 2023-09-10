@@ -19,6 +19,30 @@
     {
       "question": "Thanks!",
       "answer": "No Problem!"
+    },
+    {
+      "question": "I am doing good",
+      "answer": "That's great!"
+    },
+    {
+      "question": "I am doing poorly",
+      "answer": "Keep your head up, life gets better"
+    },
+    {
+      "question": "I am doing poorly",
+      "answer": "That's too bad, try out the music player! Maybe some Drake would help!"
+    },
+    {
+      "question": "What should I do with my life",
+      "answer": "Some things are out of your control, do what you can!"
+    },
+    {
+      "question": "How are you feeling?",
+      "answer": "Great what about you?"
+    },
+    {
+      "question": "I am feeling terribly",
+      "answer": "That's too bad, try out the music player! Maybe some Drake would help!"
     }
   ]
 }
