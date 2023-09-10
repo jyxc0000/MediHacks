@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <div>
+        <h1> Sign in </h1>
+        <form class = "signup" action = "index.html" onsubmit = "myfunc(event)">
+
+
+            <label>Email</label>
+            <input type = "email" id = "email" placeholder = "">
+            <label>Password</label>
+            <input type = "password" id = "password" placeholder = "">
+            <input type = "submit" value  = "Submit">
+        </form>
+    <script type = "text/javascript">
+        function myfunc(event){
+            location.href = "index.html";
+        }
+    </script>
+    </div>
+    <br>
+    <br>
+    <center><p>Don't have an account? <a href = "signup.html"> Sign up</a></p></center>
+    
+</body>
+</html>

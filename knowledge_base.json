@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "question": "Hi",
+      "answer": "How are you doing!"
+    },
+    {
+      "question": "Hello",
+      "answer": "How are you doing."
+    },
+    {
+      "question": "hey!",
+      "answer": "yes!"
+    },
+    {
+      "question": "& C:/Users/jc257/AppData/Local/Programs/Python/Python311/python.exe c:/Users/jc257/Documents/GitHub/MediHacks/chatbot/chatbot.py",
+      "answer": "quit"
+    }
+  ]
+}
