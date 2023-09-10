@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menstrual Cycle Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menstrual Cycle Manager</h1>
+        <div id="content">
+            <div id="record-period">
+                <h2>Record Period</h2>
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date">
+                <label for="end-date">End Date:</label>
+                <input type="date" id="end-date">
+                <button id="record-button">Record</button>
+            </div>
+            <div id="predict-period">
+                <h2>Predict Next Period</h2>
+                <p id="prediction"></p>
+            </div>
+            <div id="display-periods">
+                <h2>Recorded Periods</h2>
+                <ul id="period-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
